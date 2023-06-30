@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 50px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-color: whitesmoke;
+}
+.form h3 {
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+}
+.box {
+    padding: 10px;
+    width: 65%;
+    margin: 15px;
+    border-radius: 20px solid black;
+    outline: none;
+    border-radius: 4px;
+}
+
+.form a {
+    text-decoration: none;
+    color: black;
+    margin: 10px 0  0 140px;
+
+}
+.form a:hover {
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.194);
+}
+
+#submit{
+    padding: 12px 30px;
+    width: 250px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#submit:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.271);
+}
+
+#register {
+    padding: 12px 30px;
+    width: 250px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+#register:hover {
+    cursor: pointer;
+    color:rgba(0, 0, 0, 0.431);
+}
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: white;
+}
+
+.photo img {
+    width: 500px;
+    height: 500px;
+    
+}
+.email {
+    margin: 20px 200px -6px 0;  
+    font-weight: bold;
+}
+.password {
+    margin: 20px 200px -6px 0; 
+    font-weight: bold; 
+
+}
+
