@@ -95,4 +95,21 @@
     font-weight: bold; 
 
 }
+.line {
+    position: relative;
+    height: 2px;
+    width: 50%;
+    margin: 25px 0;
+   background-color:  #d4d4d4; 
+}
+.line::before {
+    content:'or';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:whitesmoke;
+    color: #232836;
+    padding: 0 15px;
+}
 
